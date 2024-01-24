@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Poppins", "Oswald", "Roboto", sans-serif;
+	box-sizing: border-box;
+	/* max-width: 1920px; */
+	max-width: 3840px;
+}
+
+:root {
+	--dark-blue: #242949;
+	--light-blue: #96a4d3;
+	--light-brown: #a98f76;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+html {
+	scroll-behavior: smooth;
+	width: 100%;
+	margin: auto;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+a {
+	font-size: 1.2rem;
+}
